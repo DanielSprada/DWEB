@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Síntese sobre Hyperlinks</title>
+</head>
+<body>
+    <h1>HYPERLINK</h1>
+        <p>Hyperlink é uma referência contida em um documento em hypertexto.</p>
+        <p>Os hyperlinks fazem um "apontamento", seja para outras partes de um mesmo documento, para outra página ou para um download, dentre outras.</p>
+        
+        <h2>Sintaxe do Hyperlink:</h2>
+            <p>&lt;a href="endereço"&gt;Conteúdo Referenciado Clicável&lt;/a&gt;</p>
+            <p>Também é importante utilizar o comando "target" para especificar como será a abertura do hyperlink <b>_blank</b> será aberta uma nova guia e <b>_self</b> abrirá na guia atual.</p>
+            <p>Importante também escrever sobre o que é referente o link com o comando "rel".</p>
+        
+        <h2>TIPOS DE HYPERLINK</h2>
+
+            <h3>Externos ou Remotos</h3>
+                <p>São links que fazem referência a sites e páginas na internet.<br>Na propriedade "href" utilizamos a URL (Uniform Resource Locator) do site.</p>
+
+            <h3>Hyperlinks Internos</h3>
+                <p>Apontam para um lugar diferente na mesma página. PErmite acessar diferentes parágrafos ou seções o que facilita a utilização quando o documento é muito extenso.</p>
+                <p>Sua sintaxe é: &lt;a href="#referencia"&gt;Conteúdo Referenciado&lt;/a&gt;<br>&lt;a name="referencia"&gt;&lt;/a&gt; - Essa parte vai ser escrita na parte do conteúdo onde você quer ir ao clicar no hyperlink.</p>
+            
+            <h3>Hiperlinks Locais</h3>
+                <p>Apontam para outras páginas dentro do mesmo site. Isso acontece muito quando navegamos, clicamos em um link e carrega uma nova página no site.</p>
+                <p>Sua sintaxe se dá da mesma forma das demais, apenas mudando o conteúdo da href q será: href="arquivo.html"</p>
+
+            <h3>Hyperlinks em Imagens</h3>
+                <p>É possível colocar hyperlinks em imagens, envolvendo a tag de imagem na de hyperlink.</p>
+                <p>Sintaxe: &lt;a href="referencia"&gt;&lt;img src="imagem.jpg"&gt;&lt;/a&gt;</p>
+
+            <h3>Hyperlinks para Download de Arquivos</h3>
+                <p>São links que apontam para arquivos e permite que seja feito download dos mesmos.</p>
+                <p>A sintese básica é a mesma adicionando o comando <b>download="arquivo.extensão"</b> e <b>type="tipo"</b>.</p>
+
+            <h3>Hyperlinks para Endereço Eletrônico</h3>
+                <p>São links que apontam para um e-mail. Ao clicar irá, em geral, executar o aplicativo de e-mail padrão do sistema/usuário.</p>
+                <p>Na sintese, dentro do haref irá incluir <b>mailto:</b>. Como por exemplo: <b>href="mailto:email@email.com"</b>.</p>
+</body>
+</html>
