@@ -8,9 +8,45 @@
 </head>
 <body>
     <h1>Software de versionamento</h1>
-    <p>Um software de versionamento é um programa que visa auxiliar os desenvolvedores a controlar as versões dos códigos e programas que estão desenvolvendo. Em trabalhos com equipes, auxilia também a todos estarem alinhados e com acesso ao código atualizado, visto que, o mesmo pode ser salvo junto com seu versionamento em nuvem.</p>
-    <p>No software de versionamento é possível fazer a sincrozinação entre repositórios locais e online. Pode-se também fazer a atualização de versões por usuários, Ex.: Armando e Bruno estão teabalhando no código, sendo assim podemos ter versões como: V.02.A; V.02.B, e também pode manter uma versão corrente atualizada para todos os usuários.</p>
-    <p>O software também alerta e e mostra aos usuários quais foram as alterações feitas por cada usuário, mantendo um melhor controle do projeto.</p>
-    
+        <p>Um software de versionamento é um programa que visa auxiliar os desenvolvedores a controlar as versões dos códigos e programas que estão desenvolvendo. Em trabalhos com equipes, auxilia também a todos estarem alinhados e com acesso ao código atualizado, visto que, o mesmo pode ser salvo junto com seu versionamento em nuvem.</p>
+        <p>No software de versionamento é possível fazer a sincrozinação entre repositórios locais e online. Pode-se também fazer a atualização de versões por usuários, Ex.: Armando e Bruno estão trabalhando no código, sendo assim podemos ter versões como: V.02.A; V.02.B, e também mantém uma versão corrente atualizada para todos os usuários.</p>
+        <p>O software também alerta e mostra quais foram as alterações feitas por cada usuário, mantendo um melhor controle do projeto.</p>
+        <h2>Possuímos dois tipos de softwares de controle de versão:</h2>
+            <ul>
+                <li>Centralizado</li>
+                <li>Distribuído</li>
+            </ul>
+            <p><b>Central: </b>Possui repositório central em um servidor com controle das versões, é dependente do servidor para funcionar. Um exemplo desse tipo de software é o Subversion.</p>
+            <p><b>Distribuído: </b>possui um repositório local onde, as alterações são realizadas e salvas localmente e posteriormente subidas ao servidor, no repositório central. Não depende do servidor. Exemplos de softwares desse tipo são o Mercurial e o Git.</p>
+        <h2>Ferramentas que utilizaremos:</h2>
+            <figure>
+                <img src="img/github-logo.png" alt="Logo do GitHub" width="300px" height="120px">
+            </figure>
+            <dl>
+                <dt><b>GIT</b></dt>
+                    <dd>Software de livre versionamento, criado em 2005 por Linus Torvalds. Permite registrar o histório completo de versionamentos, alterações e revisões em um projeto, faz a sincronia em servidor o que permite maior segurança e trabalho em equipe, porém, não necessita de acesso a internet e ao servidor central.</dd>
+                <dt><b>GitHub</b></dt>
+                    <dd>Plataforma de hospedagem de código fonte e arquivos com controle de versão, pode ser sincronizado ao GIT e salvar em nuvem todo um projeto, bem como, seu versionamento.</dd>
+                <dt><b>GitHub Desktop</b></dt>
+                    <dd>Permite o controle de versões usando o software com interface gráfica, possui o mesmo papel do GIT, porém, por possuir interface gráfica acaba sendo um processo mais fácil de executar.</dd>
+                <dt><b>Visual Studio Code</b></dt>
+                    <dd>Editor de código que temos utilizado na disciplina. Possui total integração com o GIT e GitHub.</dd>
+            </dl>
+        <h2>Comandos GIT</h2>
+            <dl>
+                <dt><b>commit</b></dt>
+                    <dd>torna permanente um conjunto de alterações em um repositório.</dd>
+                <dt><b>push</b></dt>
+                    <dd>envia alterações para o servidor no repositório remoto.</dd>
+                <dt><b>fetch</b></dt>
+                    <dd>verifica se o seu repositório local está em sincronia com o remoto.</dd>
+                <dt><b>pull</b></dt>
+                    <dd>sincroniza o repositório local com o remoto atualizando as versões.</dd>
+            </dl>
+        <h2>Utilização do GitHub Desktop</h2>
+            <p>Você pode criar um repositório e utilizar licenças privadas ou públicas.<br>Adicionar um repositório já existente em seu computador (caso ele não esteja no formato do GIT, terá a opção de "formatá-lo" no formato correto para o GIT).<br>Ou então, clonar um repositório da internet para sua máquina local.</p>
+            <p>É importante sempre lembrar ao editar um código, se deseja que o mesmo seja atualizado no repositório realizar o commit, inserindo uma breve descrição das alterações que realizou.<br>Após isso, para enviar ao repositório no servidor, precisa clicar em push.<br>Se deseja buscar por diferenças entre seu repositório local e o online clica em fetch e se deseja puxar o que está remoto e sincronizar com o local, realiza um pull.</p>
+            <h3><a href="https://github.com/DanielSprada" target="_blank">Clique aqui</a> para acessar meu perfil no GitHub</h3>
+            <h3><a href="https://github.com/DanielSprada/DWEB" target="_blank">Clique aqui</a> para acessar o repositório para os projetos da disciplina</h3>
 </body>
 </html>
