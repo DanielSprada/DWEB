@@ -1,0 +1,74 @@
+div {
+    background-color: slategray;
+    margin: 10px;
+    
+}
+
+span {
+    background-color: aqua;
+    font-weight: bold;
+}
+
+h1#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+    background-color: snow;
+    border: 2px solid black;
+}
+
+div.agrupamento {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: silver;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bloco1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellow;
+    color: red;
+    border: 1px solid orangered;
+    margin: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+.bloco2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+.personalizado {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216, 197, 233, 0.616);
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+.personalizado:hover{
+    color: red;
+    background-color: black;
+}
+
+.pseudo > span {
+    display: none;
+}
+
+.pseudo:hover > span {
+    display: block;
+}
+
+h3::selection {
+    color: blue;
+    background-color: yellow;
+}
